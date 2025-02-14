@@ -33,10 +33,6 @@ for i in range(3):
     with col3:
         st.image(isl_images[i+6], width=100, caption=f"Number {i+7}")
 
-
-
-
-
 # Initialize session state for livestream
 if "live_stream" not in st.session_state:
     st.session_state.live_stream = False
@@ -112,4 +108,4 @@ if st.session_state.live_stream:
         frame_placeholder.image(frame_rgb, channels="RGB")
 
     cap.release()
-    cv2.destroyAllWindows()
+    # cv2.destroyAllWindows()
