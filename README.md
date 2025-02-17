@@ -106,7 +106,7 @@ pip install streamlit cloudpickle opencv-python mediapipe
 streamlit run app.py
 ```
 
-##🚀 Future Enhancements
+## 🚀Future Enhancements
 - Improve model accuracy with more training data.
 - Optimize video streaming for web-based deployment.
 - Add multilingual support and gesture extensions.
