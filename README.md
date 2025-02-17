@@ -1,6 +1,6 @@
 # Indian Sign Language (ISL) Number Prediction
 
-📌 ## Overview
+ ## 📌Overview
 This project is a real-time Indian Sign Language (ISL) number recognition system. It uses OpenCV for live video capture, MediaPipe for hand tracking, and a trained RandomForest model to predict hand signs corresponding to numbers. The project is built with Streamlit for an interactive UI.
 
 ## Features
@@ -23,7 +23,7 @@ This project is a real-time Indian Sign Language (ISL) number recognition system
 ├── assets/          # Contains ISL reference images
 ```
 
-⚙️## Installation
+## ⚙️Installation
 ### Prerequisites
 Ensure you have Python 3.8 or later installed.
 
@@ -106,7 +106,7 @@ pip install streamlit cloudpickle opencv-python mediapipe
 streamlit run app.py
 ```
 
-🚀 ## Future Enhancements
+##🚀 Future Enhancements
 - Improve model accuracy with more training data.
 - Optimize video streaming for web-based deployment.
 - Add multilingual support and gesture extensions.
